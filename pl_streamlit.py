@@ -15,7 +15,7 @@ st.set_page_config(
 # Título y descripción
 st.title("📊 Optimización de Cartera de Inversiones")
 st.markdown("""
-### Heinlein and Krampf - Asignación de $250,000
+### Diego Baron Inv. - Asignación de $250,000
 Este aplicativo resuelve el problema de selección de portafolio utilizando Programación Lineal,
 maximizando el rendimiento sujeto a las restricciones del cliente.
 """)
@@ -282,6 +282,4 @@ st.markdown("""
 sujeto a las restricciones del cliente. Los resultados son óptimos dentro de los parámetros establecidos.
 """)
 
-if __name__ == '__main__':
 
-    st.set_option('server.enableCORS', False)
