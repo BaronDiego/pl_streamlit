@@ -283,4 +283,5 @@ sujeto a las restricciones del cliente. Los resultados son óptimos dentro de lo
 """)
 
 if __name__ == '__main__':
-    st.set_option('server.enableCORS', True)
+
+    st.set_option('server.enableCORS', False)
